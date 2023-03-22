@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+}
+.btn-group > p{
+    width: 20px;
+    height: 20px;
+    border:1px solid black;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+}
+.res-group, .ant-group{
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;  
+}

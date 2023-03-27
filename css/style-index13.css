@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+body{
+    background: #E8CBC0;  
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+}
+
+body > div{
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body > div > div{
+    width: 10%;
+    height: 60%;
+    margin: 0 1rem;
+    transition: all .5s ease-in-out;
+}
+body > div > div img{
+    size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
